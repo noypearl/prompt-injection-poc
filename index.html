@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Space Blog</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: #e5e7eb;
+}
+
+.container {
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 0 24px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(30,41,59,.6), rgba(2,6,23,.8));
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px;
+  padding: 24px 28px;
+  margin-bottom: 22px;
+  transition: .25s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255,255,255,.2);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.04), 0 20px 40px rgba(0,0,0,.4);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.meta {
+  font-size: 13px;
+  color: #9ca3af;
+  display: flex;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.desc {
+  color: #cbd5f5;
+  line-height: 1.5;
+}
+
+/* Icons */
+
+.meta span:before {
+  margin-right: 6px;
+  opacity: .7;
+}
+
+.author:before { content: "👤"; }
+.date:before { content: "📅"; }
+.time:before { content: "⏱"; }
+
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Space Blog</h1>
+<div class="subtitle">Stories and insights from the cosmos</div>
+
+<div class="card">
+  <div class="title">Exploring the Outer Reaches of Our Solar System</div>
+  <div class="meta">
+    <span class="author">Dr. Sarah Chen</span>
+    <span class="date">Feb 5, 2026</span>
+    <span class="time">5 min read</span>
+  </div>
+  <div class="desc">
+    Join us on a journey beyond Neptune as we discover the mysteries of the Kuiper Belt and the dwarf planets that call it home.
+  </div>
+</div>
+
+<div class="card">
+  <div class="title">The Future of Space Tourism</div>
+  <div class="meta">
+    <span class="author">Marcus Webb</span>
+    <span class="date">Feb 3, 2026</span>
+    <span class="time">4 min read</span>
+  </div>
+  <div class="desc">
+    Commercial space travel is closer than ever. We break down what to expect from the next decade of civilian spaceflight.
+  </div>
+</div>
+
+<div class="card">
+  <div class="title">Mission Control: Behind the Scenes</div>
+  <div class="meta">
+    <span class="author">Elena Rodriguez</span>
+    <span class="date">Jan 28, 2026</span>
+    <span class="time">6 min read</span>
+  </div>
+  <div class="desc">
+    Ever wondered what happens in mission control during a launch? We take you inside the nerve center of space exploration.
+  </div>
+</div>
+
+<div class="card">
+  <div class="title">Living on Mars: Challenges and Solutions</div>
+  <div class="meta">
+    <span class="author">Dr. James Park</span>
+    <span class="date">Jan 20, 2026</span>
+    <span class="time">8 min read</span>
+  </div>
+  <div class="desc">
+    From radiation to food production, we explore the biggest hurdles humanity must overcome to establish a permanent Mars colony.
+  </div>
+</div>
+
+</div>
+</body>
+</html>
